@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:thesisproject/mainpage.dart';
 import 'package:footer/footer.dart';
 import 'package:footer/footer_view.dart';
+import 'package:thesisproject/loginpage.dart';
 
 void main() {
   runApp(const MaterialApp(
@@ -41,7 +42,7 @@ class LoginPage extends StatelessWidget {
                       onPressed: (){
                         Navigator.push(
                           context,
-                          MaterialPageRoute(builder: (context) => HomePage()),
+                          MaterialPageRoute(builder: (context) => LoginPart()),
                         );
                       },
                       style: ElevatedButton.styleFrom(

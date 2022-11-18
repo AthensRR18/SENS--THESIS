@@ -27,8 +27,6 @@ class HistoryPage extends StatelessWidget {
             SizedBox(
               height: 50,
               width: 100,
-              child: ElevatedButton(
-              ),
             ),
           ],
         ),
